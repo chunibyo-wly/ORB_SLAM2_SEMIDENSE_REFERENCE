@@ -1,10 +1,10 @@
-FILE(REMOVE_RECURSE
-  "CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o"
-  "../Examples/Stereo/stereo_kitti.pdb"
+file(REMOVE_RECURSE
   "../Examples/Stereo/stereo_kitti"
+  "../Examples/Stereo/stereo_kitti.pdb"
+  "CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/stereo_kitti.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/stereo_kitti.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

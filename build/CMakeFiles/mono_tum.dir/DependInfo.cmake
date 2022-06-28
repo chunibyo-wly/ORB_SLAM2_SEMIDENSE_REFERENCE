@@ -1,32 +1,46 @@
 # The set of languages for which implicit dependencies are needed:
-SET(CMAKE_DEPENDS_LANGUAGES
+set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hyj/ORB_SLAM/ORB_SLAM2/Examples/Monocular/mono_tum.cc" "/home/hyj/ORB_SLAM/ORB_SLAM2/build/CMakeFiles/mono_tum.dir/Examples/Monocular/mono_tum.cc.o"
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/chunibyo/workspace/ORB_SLAM2/Examples/Monocular/mono_tum.cc" "/home/chunibyo/workspace/ORB_SLAM2/build/CMakeFiles/mono_tum.dir/Examples/Monocular/mono_tum.cc.o"
   )
-SET(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
-SET(CMAKE_TARGET_DEFINITIONS
+set(CMAKE_TARGET_DEFINITIONS_CXX
   "COMPILEDWITHC11"
-  )
-
-# Targets to which this target links.
-SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hyj/ORB_SLAM/ORB_SLAM2/build/CMakeFiles/ORB_SLAM2.dir/DependInfo.cmake"
+  "DISABLE_LIBUSB_1_0"
+  "DISABLE_PCAP"
+  "DISABLE_PNG"
+  "HAVE_EIGEN"
+  "HAVE_GLEW"
+  "HAVE_PYTHON"
+  "PANGO_DEFAULT_WIN_URI=\"wayland\""
+  "_LINUX_"
+  "qh_QHpointer"
+  "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+  "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
   )
 
 # The include file search paths:
-SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/usr/include/opencv"
-  ".."
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../"
   "../include"
+  "/usr/include/vtk-7.1"
+  "/usr/include/freetype2"
+  "/usr/include/pcl-1.10"
   "/usr/include/eigen3"
-  "/home/hyj/ORB_SLAM/Pangolin/include"
-  "/home/hyj/ORB_SLAM/Pangolin/build/src/include"
+  "/usr/include/ni"
+  "/usr/include/openni2"
+  "/usr/local/include/opencv4"
   )
-SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/chunibyo/workspace/ORB_SLAM2/build/CMakeFiles/ORB_SLAM2.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

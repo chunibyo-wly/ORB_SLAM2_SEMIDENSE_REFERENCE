@@ -1,26 +1,31 @@
 # The set of languages for which implicit dependencies are needed:
-SET(CMAKE_DEPENDS_LANGUAGES
+set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/DBoW2/BowVector.cpp" "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/BowVector.cpp.o"
-  "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/DBoW2/FORB.cpp" "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/FORB.cpp.o"
-  "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp" "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/FeatureVector.cpp.o"
-  "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp" "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/ScoringObject.cpp.o"
-  "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/DUtils/Random.cpp" "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DUtils/Random.cpp.o"
-  "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/DUtils/Timestamp.cpp" "/home/hyj/ORB_SLAM/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DUtils/Timestamp.cpp.o"
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/DBoW2/BowVector.cpp" "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/BowVector.cpp.o"
+  "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/DBoW2/FORB.cpp" "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/FORB.cpp.o"
+  "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp" "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/FeatureVector.cpp.o"
+  "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp" "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/ScoringObject.cpp.o"
+  "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/DUtils/Random.cpp" "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DUtils/Random.cpp.o"
+  "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/DUtils/Timestamp.cpp" "/home/chunibyo/workspace/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DUtils/Timestamp.cpp.o"
   )
-SET(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# Targets to which this target links.
-SET(CMAKE_TARGET_LINKED_INFO_FILES
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "DBoW2_EXPORTS"
   )
 
 # The include file search paths:
-SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/usr/include/opencv"
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/local/include/opencv4"
   )
-SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
